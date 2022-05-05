@@ -1,0 +1,22 @@
+<app-champs></app-champs>
+
+<div class="container text-center">
+  <h4>Liste des Articles </h4>
+  <table class="table table-striped">
+    <thead>
+  <tr>
+    <th>Titre</th>
+    <th>Description</th>
+    <th>Publier</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let article of article[0]">
+    <td>{{article.title}}</td>
+    <td>{{article.description}}</td>
+    <td>{{article.published}}</td>
+  </tr>
+  <tbody>
+    </table>
+</div>
+<router-outlet></router-outlet>
