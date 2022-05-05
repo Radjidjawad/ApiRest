@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Connection.php
+
+Ce fichier utilisera la chaîne de connexion mysql.
+
+## Article.php
+
+Ce fichier contient tous les méthode d’API REST.
+
+## Post.php
+
+Ce fichier permet d’envoyer une requête POST à notre API REST pour tester l’ajout d’un nouveau article.
+
+## Put.php
+
+Ce fichier permet d’envoyer une requête PUT à notre API REST pour tester la mise à jour d’un nouveau article.
+
+## Delete.php
+
+Ce fichier permet d’envoyer une requête DELETE à notre API REST pour tester la suppression d’un nouveau article.
+
+
+## .Htaccess
+
+Ce fichier est utilisé pour le routage.
+
